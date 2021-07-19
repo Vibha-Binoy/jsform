@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+</head>
+<body onload="abc()">
+	<form method="post" onsubmit="return xyz()">
+  	<!--Form is used for filling in input-->
+	<span>Please enter your name</span>
+	<input type="text" name="name" id="name" placeholder="enter name">
+	<br>
+	<span>Please enter your class</span>
+	<input type="text" name="class" id="grade" placeholder="enter grade">
+	<br>
+	<span>Please enter your age</span>
+	<input type="number" name="age" id="age" placeholder="enter age">
+	<br>
+	<span>Please enter your passcode</span>
+	<input type="password" name="class" id="pass" placeholder="passcode">
+	<br>
+	<span>Please chose your gender</span>
+	<br>
+	<input type="radio" name="gender" id="male" placeholder="enter gender">
+	<label for="male">Male</label><br>
+	<input type="radio" name="gender" id="female">
+	<label for="female">Female</label>
+	<br>
+	<span>Please chose all the things that you have</span>
+	<br>
+	<input type="checkbox" id="vehicle"name="Bike">
+	<label for="vehicle">I have a bike</label>
+	<br>
+	<input type="checkbox" id="vehicle"name="Car">
+	<label for="vehicle">I have a car</label>
+	<br>
+	<input type="checkbox" id="vehicle"name="Motorbike">
+	<label for="vehicle">I have a motorbike</label>
+	<br>
+	<input type="checkbox" id="vehicle"name="Bus">
+	<label for="vehicle">I have a bus</label>
+	<br>
+	<input type="checkbox" id="vehicle"name="Skooter">
+	<label for="vehicle">I have a Shooter</label>
+	<br>
+	<input type="submit" value="Submit" name="button">
+	<br>
+	<textarea rows="5" cols="70" name="description">Enter Description here</textarea>
+	<!--Span is used to display text next to the input box->
+	<!--Placeholder is used to display text in the input box-->
+	<!--input type password will make the text typed as dotted form-->
+  </form>
+	<span>Please enter your name</span>
+	<input type="text" name="name" id="name" placeholder="enter name">
+	<input type="submit" onclick="cdf()" value="Submit">
+	<br>
+<script type="text/javascript" language="javascript">
+	document.write("Codeyoung")
+	//this is my single line comment
+    /*This is my double lne comment
+    thi s is sis sis sis sis sis sisi
+    sis sis issisisisisisissisisisisisis*/
+    function cdf(){
+    	alert("Submit form?")
+    }
+    function abc(){
+    	alert("Hello welcome")
+    }
+    function xyz(){
+    	alert("Sure you want to submit?")
+    }
+    function over(){
+    	document.getElementById("test").innerHTML="Mouse Over"
+    }
+    function out(){
+    	document.getElementById("test").innerHTML="Mouse Out"
+    }
+</script>
+<div onmouseover="over()" onmouseout="out()">
+	<h1 id="test">
+		hello everyone
+	</h1>
+</div>
+</body>
+</html>
